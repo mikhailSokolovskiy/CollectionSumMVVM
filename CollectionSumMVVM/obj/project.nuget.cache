@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lBmTHOEL4Xjp/zMJeobWLftLJSGoBRJ8AhZI+LXGgdmBq3TGz7Q8/I9cdw7+Z7jmheWQpyHiVR/lnVBn/RMdow==",
+  "dgSpecHash": "8XjIwOx+pvAg9IEPl6yVETycbcELeHKzF5HYZliMydJYTvaKtxJPLWZ1MfF9pDNvHeVgd2OfKMNz+DzVQ5I1Pg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mikhail\\RiderProjects\\CollectionSumMVVM\\CollectionSumMVVM\\CollectionSumMVVM.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\Mikhail\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\Mikhail\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Mikhail\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mikhail\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
     "C:\\Users\\Mikhail\\.nuget\\packages\\reactiveui\\18.3.1\\reactiveui.18.3.1.nupkg.sha512",
     "C:\\Users\\Mikhail\\.nuget\\packages\\skiasharp\\2.88.3\\skiasharp.2.88.3.nupkg.sha512",
     "C:\\Users\\Mikhail\\.nuget\\packages\\skiasharp.nativeassets.linux\\2.88.3\\skiasharp.nativeassets.linux.2.88.3.nupkg.sha512",
