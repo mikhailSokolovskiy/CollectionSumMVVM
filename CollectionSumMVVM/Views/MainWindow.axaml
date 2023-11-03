@@ -15,6 +15,22 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
     
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <DockPanel>
+        <!-- Число для добавления в коллекцию -->
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+            <TextBox x:Name="TheNumber" Width="50" Margin="5"/>
+            <Button Content="Add" Margin="5" Command="{Binding AddCommand}"
+                    CommandParameter="{Binding ElementName=TheNumber, Path=Text}"/>
+        </StackPanel>
+        <!-- Сумма -->
+        <TextBox DockPanel.Dock="Bottom" Text="{Binding Sum, Mode=OneWay}" Margin="5"/>
+        <!-- Кнопка удаления из коллекции -->
+        <Button DockPanel.Dock="Right" VerticalAlignment="Top" Content="Remove"
+                Width="130" Margin="5"
+                Command="{Binding RemoveCommand}"
+                CommandParameter="{Binding ElementName=TheListBox, Path=SelectedIndex}"/>
+        <!-- Коллекция -->
+        <ListBox  x:Name="TheListBox" ItemsSource="{Binding MyValues}"/>
+    </DockPanel>
 
 </Window>
